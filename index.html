@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Xenova — modern luxury clothing.">
+  <title>Xenova — Modern Luxury</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">FREE SHIPPING ON ORDERS OVER $100</div>
+
+  <header class="nav">
+    <a class="logo" href="#home">XENOVA</a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button class="cart" id="cartBtn">Bag <span id="cartCount">0</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">THE NEW STANDARD</p>
+        <h1>Luxury, <em>redefined.</em></h1>
+        <p class="hero-copy">Elevated essentials designed for those who move differently.</p>
+        <a class="button" href="#shop">Explore Collection</a>
+      </div>
+      <div class="hero-glow"></div>
+    </section>
+
+    <section class="intro">
+      <p class="eyebrow">XENOVA / 01</p>
+      <h2>Quiet confidence.<br><em>Unmistakable presence.</em></h2>
+    </section>
+
+    <section class="shop" id="shop">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE COLLECTION</p>
+          <h2>Featured Pieces</h2>
+        </div>
+        <p>Refined silhouettes. Premium attitude.</p>
+      </div>
+
+      <div class="products">
+        <article class="product">
+          <div class="product-image image-1"><span>01</span></div>
+          <div class="product-info">
+            <div><h3>Xenova Essential Tee</h3><p>Heavyweight cotton</p></div>
+            <strong>$45</strong>
+          </div>
+          <button class="add" data-product="Xenova Essential Tee" data-price="45">Add to Bag</button>
+        </article>
+
+        <article class="product">
+          <div class="product-image image-2"><span>02</span></div>
+          <div class="product-info">
+            <div><h3>Obsidian Hoodie</h3><p>Premium heavyweight fleece</p></div>
+            <strong>$90</strong>
+          </div>
+          <button class="add" data-product="Obsidian Hoodie" data-price="90">Add to Bag</button>
+        </article>
+
+        <article class="product">
+          <div class="product-image image-3"><span>03</span></div>
+          <div class="product-info">
+            <div><h3>Monochrome Overshirt</h3><p>Structured relaxed fit</p></div>
+            <strong>$110</strong>
+          </div>
+          <button class="add" data-product="Monochrome Overshirt" data-price="110">Add to Bag</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto" id="about">
+      <div>
+        <p class="eyebrow">THE XENOVA PHILOSOPHY</p>
+        <h2>Less noise.<br><em>More presence.</em></h2>
+      </div>
+      <p>Xenova is built around a simple idea: clothing should feel effortless, intentional, and unmistakably yours. We create modern pieces with a luxury-inspired edge, designed to become part of your everyday uniform.</p>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <p class="eyebrow">JOIN XENOVA</p>
+      <h2>Be first to know.</h2>
+      <p>New drops, private releases and exclusive offers.</p>
+      <form id="newsletterForm">
+        <input type="email" placeholder="Your email address" required aria-label="Email address">
+        <button class="button" type="submit">Subscribe</button>
+      </form>
+      <small id="formMessage"></small>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo">XENOVA</div>
+    <p>© 2026 Xenova. All rights reserved.</p>
+    <div><a href="#home">Instagram</a><a href="#contact">Contact</a></div>
+  </footer>
+
+  <div class="toast" id="toast">Added to bag.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
