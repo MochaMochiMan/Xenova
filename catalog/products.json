@@ -1,0 +1,19 @@
+[
+  {
+    "id": "hope-japanese-embroidered-beanie",
+    "name": "\"Hope\" Japanese Embroidered Beanie",
+    "description": "Black classic knit beanie with Japanese embroidery on the front.",
+    "price": 35.0,
+    "currency": "CAD",
+    "color": "Black",
+    "size": "One size",
+    "image": "https://files.cdn.printful.com/upload/product-templates/67/673b72348a109b4d440f925c8f81572b_l",
+    "printful": {
+      "store_id": 18905374,
+      "product_id": 81,
+      "product_template_id": 108832594,
+      "variant_id": 4522,
+      "placement": "embroidery_front"
+    }
+  }
+]
